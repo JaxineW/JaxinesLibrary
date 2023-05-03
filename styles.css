@@ -1,0 +1,713 @@
+html{
+background-color:linen ;
+color:dimgray;
+font-family: 'Prata', serif,'Oswald', sans-serif,'Jost', sans-serif;
+}
+.sidenav {
+    height: 90%; 
+    width:8%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: rgb(255, 195, 142); 
+    overflow-x: hidden; 
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+h7{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 60px;
+}
+    
+.sidenavimg:hover {
+    -webkit-transition: 0.1s ease-in;
+             transition: 0.1s ease-in;
+     -webkit-transform: scale(1.2);
+             transform: scale(1.2);
+    
+}
+
+.sidenavimgicon:hover {
+    -webkit-transition: 0.1s ease-in;
+             transition: 0.1s ease-in;
+     -webkit-transform: scale(1.2);
+             transform: scale(1.2);
+    
+}
+.sidenavimg a img {
+    color:white
+}
+
+.sidenavimgicon a img {
+    color:white
+}
+.sidenavimgicon{
+    width:30%;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.sidenavimg{
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+    
+    
+}
+.main {
+    margin-left: 140px;
+
+}
+
+body{
+    margin:0%;
+    padding:0%
+}
+.typesection{
+    background-image: url(images/Type\ backgrgound.png);
+    background-size: 100%;
+    background-blend-mode: overlay;
+    
+}
+
+.illustrationsection{
+    background-image: url(images/Illustration\ background.png);
+    background-size: 100%;
+}
+
+h1{
+    background-image:url(images/bookshelf.jpg),linear-gradient(to bottom right, peachpuff, peachpuff, rgba(255, 218, 185, 0.813), rgba(255, 218, 185, 0.265));
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: 1300px; 
+    margin-top:0%;
+    padding: 10px 10px 10px 20px;
+    font-size:4vw;
+    color: rgb(38, 38, 38);
+    letter-spacing: 2px;
+
+}
+p{background-color: rgb(255, 181, 117);
+    margin-top:0%;
+    margin-left: 0%;
+    padding:10px 10px 10px 50px;
+    font-size:1vw
+}
+nav{
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    height: 144px;
+    width: 100%;
+}
+#box{
+    float:left;
+}
+.box a{
+    text-align: center;
+}
+.typebooks{ background-image:url(images/books\ focusing\ on\ type.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 200px;
+    width: 216px;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.illustratedbooks{ background-image: url(images/books\ focusing\ on\ illustration.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 50px;
+    height: 200px;
+    width: 216px;
+    display: flex;
+    justify-content: center
+}
+.processofabook{ background-image: url(images/Process\ of\ a\ book.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 50px;
+    height: 200px;
+    width: 216px;
+    display: flex;
+    justify-content: center;
+}
+
+.typebooks:hover{
+    opacity: 0.5;
+}
+.illustratedbooks:hover{
+    opacity: 0.5;
+}
+.processofabook:hover{
+    opacity: 0.5;
+    color: white;
+}
+
+
+h4{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 18px;
+    margin-bottom: -10px;
+}
+
+.Top {
+    background-color : peachpuff;
+    color: white;
+    padding: 10px 20px;
+    height:60px;
+    width:60px;
+    border-radius:30%;
+    border-color: peachpuff;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+#topbutton {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+.slider_container{
+    position: relative;
+    width: 50%;
+    height: 40%;
+    margin: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+.slider{
+    position: relative;
+    width: 400%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    animation: 30s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
+}
+.slide{
+    position: relative;
+    min-width: 100%;
+    height: 100%;
+}
+.slide img{
+    width: 60%;
+    height: 60%;
+}
+
+.slide.one{
+    background: linen;
+}
+.slide.two{
+    background: linen;
+}
+.slide.three{
+    background: linen;
+}
+.slide.four{
+    background: linen;
+}
+.slide.five{
+    background: linen;
+}
+.slide.six{
+    background: linen;
+}
+.slide.seven{
+    background: linen;
+}
+.slide.eight{
+    background: linen;
+}
+.slide.nine{
+    background: linen;
+}
+@keyframes sliding {
+    0% { 
+        transform: translateX(0%);
+    }
+    10%{
+        transform: translateX(0%);
+    }
+    15%{
+        transform: translateX(-100%);
+    }
+    20%{
+        transform: translateX(-100%);
+    }
+    25%{
+        transform: translateX(-200%);
+    }
+    30%{
+        transform: translateX(-200%);
+    }
+    35%{
+        transform: translateX(-300%);
+    }
+    40%{
+        transform: translateX(-300%);
+    }
+    45%{
+        transform: translateX(-400%);
+    }
+    50%{
+        transform: translateX(-400%);
+    }
+    55%{
+        transform: translateX(-500%);
+    }
+    60%{
+        transform: translateX(-500%);
+    }
+    65%{
+        transform: translateX(-600%);
+    }
+    70%{
+        transform: translateX(-600%);
+    }
+    75%{
+        transform: translateX(-700%);
+    }
+    80%{
+        transform: translateX(-700%);
+    }
+    85%{
+        transform: translateX(-800%);
+    }
+    90%{
+        transform: translateX(-800%);
+    }
+    95%{
+        transform: translateX(-900%);
+    }  
+}
+
+h3{
+    margin-top:17px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-size: 24px;
+}
+
+h6{
+    font-family:'Prata', serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-left: 18px;
+    margin-bottom: -20px;
+
+}
+.container {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    margin-left: 100px;
+}
+pre{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #232323;
+}
+
+
+.textcontainer{
+    display: inline-block;
+    align-items: left;
+    justify-content: left
+}
+
+.imageoverlay {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-image: url(images/Visual\ Communication\ Back\ Book\ Final.JPG);
+    background-size: cover;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.container:hover .overlay1 {
+    width: 100%;
+    left: 0;
+}
+  
+.container2 {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.textcontainer2{
+    display: inline-block;
+    align-items: left;
+    justify-content: left
+}
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-image: url(images/What\ Makes\ a\ book\ Beautiful\ Page.jpg);
+    background-size: cover;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.container2:hover .overlay2 {
+    width: 100%;
+    left: 0;
+}
+  
+.container3 {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.textcontainer3{
+    display: inline-block;
+    align-items: left;
+    justify-content: left
+}
+.overlay3 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-image: url(images/Conceptual\ Senses\ Page.jpg);
+    background-size: cover;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.container3:hover .overlay3 {
+    width: 100%;
+    left: 0;
+}
+
+.container4 {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.textcontainer4{
+    display: inline-block;
+    align-items: left;
+    justify-content: left
+}
+  
+.overlay4 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-image: url(images/Grid\ Exercise\ Page.jpg);
+    background-size: cover;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.container4:hover .overlay4 {
+    width: 100%;
+    left: 0;
+}
+
+.container5 {
+    position: relative;
+    width: 35%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.textcontainer5{
+    display: inline-block;
+    align-items: left;
+    justify-content: left
+}
+.overlay5 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-image: url(images/IMG_0806.jpg);
+    background-size: cover;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.container5:hover .overlay5 {
+    width: 100%;
+    left: 0;
+}
+.container6 {
+    position: relative;
+    width: 35%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.textcontainer6{
+    display: inline-block;
+    align-items: left;
+    justify-content: left
+}
+.overlay6 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-image: url(images/FN_101C+C_Fall2021_TheGoldenRatio&FibbonacciSequence_JaxineWong_WholeCover.jpg);
+    background-size: cover;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+.container6:hover .overlay6 {
+    width: 100%;
+    left: 0;
+}
+  
+.container7 {
+    position: relative;
+    width: 35%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+} 
+
+.textcontainer7{
+    display: inline-block;
+    align-items: left;
+    justify-content: left
+}
+.overlay7 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-image: url(images/IMG_0961.jpg);
+    background-size: cover;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.container7:hover .overlay7 {
+    width: 100%;
+    left: 0;
+}
+
+.container8 {
+    position: relative;
+    width: 35%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+} 
+
+.textcontainer8{
+    display: inline-block;
+    align-items: left;
+    justify-content: left
+}
+.overlay8 {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    right: 0;
+    background-image: url(images/Haiku\ Poem\ Page.jpg);
+    background-size: cover;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+.container8:hover .overlay8 {
+    width: 100%;
+    left: 0;
+}
+
+.container9 {
+    position: relative;
+    width: 35%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+} 
+
+.textcontainer9{
+    display: inline-block;
+    align-items: left;
+    justify-content: left
+}
+.overlay9 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-image: url(images/DE224_SP23_JaxineWong_FiveSensesBookInsidePage.JPG);
+    background-size: cover;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.container9:hover .overlay9 {
+    width: 100%;
+    left: 0;
+}
+  
+.wrapper10 {
+    width: 470px;
+    margin-left: 40px;
+    margin-top: 20px;
+    display: inline-block;	
+}
+.container10 {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: -10px;
+    width: 455px;
+    height: 302px;
+    padding: 0;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-left: 20px;
+}
+.textcontainer10{
+    display: inline-block;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 40px;
+    
+}
+#start10 {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    font-size: 75px;
+    color: #342c2a; 
+    -webkit-animation: slide 1.5s ease-in-out forwards;
+      animation: slide 1.5s ease-in-out forwards;
+}
+
+.starterimage{
+    display: block;
+    Width:100%
+}
+
+.containerimage{
+    display: block;
+    width:100%
+}
+.imagenavigation10{
+     position: absolute;
+     bottom: 0px;
+     left: -70px;
+     margin-top: 20px;
+     padding: 0;
+}
+li{
+    color: transparent;
+}
+.btn10 {
+     float: right;
+     margin: 4px;
+     width: 28px;
+     height: 28px;
+     border: 1px solid #fff;
+     color: #342c2a;
+     font-family: 'Oswald', sans-serif;
+     font-size: small;
+     box-shadow: 0px 0px 10px rgba(84, 84, 84, 0.3);
+     -webkit-transition: 0.1s ease-in;
+             transition: 0.1s ease-in;
+}
+.btn10 a img {
+     display: block; 
+     text-decoration: none;
+     height: 100%;
+     width: 100%;
+     letter-spacing: 2px;
+     font-size: 12px;
+}
+.btn10:hover {
+     -webkit-transition: 0.1s ease-in;
+             transition: 0.1s ease-in;
+     -webkit-transform: scale(1.2);
+             transform: scale(1.2);
+}
+
+#slide48, #slide49, #slide50, #slide51, #slide52, #slide53, #slide54, #slide55{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+#slide48:target, 
+#slide49:target,
+#slide50:target, 
+#slide51:target,
+#slide52:target, 
+#slide53:target,
+#slide54:target, 
+#slide55:target{
+	 font-size: 75px; opacity: 1;
+}
+
+h8{
+    font-family:'Prata', serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
